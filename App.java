@@ -11,11 +11,6 @@ import java.util.*;
 
 /**
  * App
- * Observações gerais (comentadas neste arquivo):
- * - Arquivo CSV: data_tasks.csv (cabeçalho: id;titulo;descricao;status;criadoEm)
- * - Status: 0 = TODO, 1 = DOING, 2 = DONE
- * - Não usa bibliotecas externas — bom para aprendizado, mas com limitações de
- *   robustez, concorrência e segurança para produção.
  */
 public class App {
 
