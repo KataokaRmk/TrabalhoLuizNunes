@@ -59,9 +59,9 @@ public class App {
     /**
      * Handler para a API REST em /api/tasks
      * Suporta:
-     * - GET /api/tasks -> lista todas as tarefas (JSON array)
-     * - POST /api/tasks -> cria nova tarefa (body JSON com titulo/descricao)
-     * - PATCH /api/tasks/{id}/status -> atualiza status (body JSON {status})
+     * - GET /api/tasks -> lista todas as tarefas 
+     * - POST /api/tasks -> cria nova tarefa 
+     * - PATCH /api/tasks/{id}/status -> atualiza status 
      * - DELETE /api/tasks/{id} -> deleta tarefa
      *
      * Tratamento de erros é simples: retorna códigos HTTP e mensagens JSON quando
@@ -133,7 +133,7 @@ public class App {
         }
     }
 
-    // HTML estático injetado como string de texto multi-linha. Frontend vanilla JS.
+    // HTML estático injetado como string de texto multi-linha.
     static final String INDEX_HTML = """
 <!doctype html>
 <html lang="pt-BR">
